@@ -21,6 +21,7 @@ make
 ## TODO
 - Linters
 - Tests
+- Homebrew
 - More commands
 - Blockchain support
 - IPO in next year

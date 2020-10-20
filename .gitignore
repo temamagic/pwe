@@ -1,2 +1,4 @@
 .idea
 /.chglog/
+/pkg/
+/homebrew/
