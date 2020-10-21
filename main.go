@@ -11,7 +11,7 @@ func main() {
 	str := strings.Join(os.Args, " ")
 	str = strings.ToLower(str)
 
-	s := Repalce(str)
+	s := Replace(str)
 
 	fmt.Println("Що ти зробив:")
 

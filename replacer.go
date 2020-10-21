@@ -21,6 +21,6 @@ var replacer = strings.NewReplacer(
 	"я", "z", "ч", "x", "с", "c", "м", "v", "и", "b", "т", "n", "ь", "m",
 )
 
-func Repalce(s string) string {
+func Replace(s string) string {
 	return replacer.Replace(s)
 }

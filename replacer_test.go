@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestRepalce(t *testing.T) {
+func TestReplace(t *testing.T) {
 	tests := []struct {
 		input string
 		want  string
@@ -22,7 +22,7 @@ func TestRepalce(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.input, func(t *testing.T) {
-			assert.Equal(t, tt.want, Repalce(tt.input))
+			assert.Equal(t, tt.want, Replace(tt.input))
 		})
 	}
 }
