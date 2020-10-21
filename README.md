@@ -27,7 +27,7 @@ make
 - IPO in next year
 
 ## CHANGELOG
-[CHANGELOG HERE](https://github.com/temamagic/pwe/CHANGELOG.md)
+[CHANGELOG HERE](https://github.com/temamagic/pwe/blob/master/CHANGELOG.md)
 
 ## 🤝 Contributing
 
