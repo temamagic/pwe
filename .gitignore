@@ -2,3 +2,5 @@
 /.chglog/
 /pkg/
 /homebrew/
+coverage.out
+error.log

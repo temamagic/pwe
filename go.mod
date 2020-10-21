@@ -1,4 +1,4 @@
-module gitlab.com/temamagic/pwe
+module github.com/temamagic/pwe
 
 go 1.14
 
