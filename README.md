@@ -19,13 +19,15 @@ make
 ```
 
 ## TODO
-- Linters
-- Tests
+- <s>Linters</s>
+- <s>Tests</s>
 - Homebrew
 - More commands
 - Blockchain support
 - IPO in next year
 
+## CHANGELOG
+[CHANGELOG HERE](https://github.com/temamagic/pwe/CHANGELOG.md)
 
 ## 🤝 Contributing
 

@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("Що ти зробив:")
 
 	args := strings.Split(s, " ")
-	cmd := exec.Command("git", args[1:]...)
+	cmd := exec.Command("git", args[1:]...) //nolint:gosec
 	path, _ := os.Getwd()
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
