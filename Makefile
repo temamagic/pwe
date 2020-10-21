@@ -5,7 +5,7 @@ GHRFLAGS =
 all: install
 
 build:
-	goxc -d=pkg -pv=v$(VERSION) -os="linux darwin windows"
+	goxc -d=pkg -pv=$(VERSION) -os="linux darwin windows"
 
 release:
 	ghr -delete -u temamagic  $(GHRFLAGS) $(VERSION) pkg/$(VERSION)
